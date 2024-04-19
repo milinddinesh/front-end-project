@@ -17,7 +17,7 @@ function populateGallery(imageFileNames) {
 
       var imgElement = document.createElement('img');
       imgElement.className = 'card-img-top';
-      imgElement.src = '/Resources/' + fileName + '.jpg'; 
+      imgElement.src = '/front-end-project/Resources/' + fileName + '.jpg'; 
       imgElement.alt = 'Card image cap';
 
       var cardBodyDiv = document.createElement('div');
