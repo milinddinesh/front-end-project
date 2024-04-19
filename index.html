@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Image gallery</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+      <div class="top-nav">
+        <div class="left-side">
+          <h1>Image Gallery</h1>
+        </div>
+        <div class="right-side">
+          <div class="hamburger-menu" onclick="toggleDropdown()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+          <div class="dropdown-menu" id="dropdown-menu">
+            <a href="#" id = "ascending" onclick="button1Clicked()">Ascending</a>
+            <a href="#" id = "descending" onclick="button2Clicked()">Decending</a>
+          </div>
+        </div>
+      </div>
+        <div class="gallery" id = 'gallery'>
+        </div>
+    </body>
+</html>
